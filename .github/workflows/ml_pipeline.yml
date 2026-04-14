@@ -53,5 +53,5 @@ jobs:
 
       - name: Deploy model
         run: |
-          streamlit run streamlit_app.py
+          streamlit run streamlit_app.py &
           sleep 5
