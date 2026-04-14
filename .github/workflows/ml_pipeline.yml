@@ -52,4 +52,6 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Deploy model
-        run: streamlit run streamlit_app.py
+        run: |
+        streamlit run streamlit_app.py
+        sleep 5
